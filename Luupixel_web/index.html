@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lu Ziyao - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">LUU</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">作品</a></li>
+                <li><a href="about.html">关于</a></li>
+                <li><a href="blog.html">博客</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- 轮播图部分 -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="project1.jpg" alt="项目1">
+                    <div class="slide-content">
+                        <h2>创意项目一</h2>
+                        <p>项目简介描述</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="project2.jpg" alt="项目2">
+                    <div class="slide-content">
+                        <h2>创意项目二</h2>
+                        <p>项目简介描述</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="project3.jpg" alt="项目3">
+                    <div class="slide-content">
+                        <h2>创意项目三</h2>
+                        <p>项目简介描述</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <!-- 作品视频展示区 -->
+        <section class="video-gallery">
+            <div class="video-grid">
+                <div class="video-item">
+                    <video controls poster="video1-thumbnail.jpg">
+                        <source src="video1.mp4" type="video/mp4">
+                    </video>
+                    <h3>作品标题一</h3>
+                    <p>作品描述文字</p>
+                </div>
+                <div class="video-item">
+                    <video controls poster="video2-thumbnail.jpg">
+                        <source src="video2.mp4" type="video/mp4">
+                    </video>
+                    <h3>作品标题二</h3>
+                    <p>作品描述文字</p>
+                </div>
+                <div class="video-item">
+                    <video controls poster="video3-thumbnail.jpg">
+                        <source src="video3.mp4" type="video/mp4">
+                    </video>
+                    <h3>作品标题三</h3>
+                    <p>作品描述文字</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lu Ziyao. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
